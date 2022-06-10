@@ -1,0 +1,27 @@
+.header-container{
+    background-color: rgb(66, 62, 62);
+    height: 80px;
+    margin: 0;
+
+}
+.nav-bar{
+    display: inline-block;
+    border: 1 solid white;
+    margin-left: 45rem;
+
+}
+.nav-bar ul li a{
+   
+    text-decoration: none;
+    padding: 14px 25px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+
+}

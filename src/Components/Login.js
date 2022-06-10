@@ -1,5 +1,6 @@
-function About(params) {
+function Login(){
     return(
+        
         <div className="header-container">
             <div className="nav-bar">
                 <ul>
@@ -13,4 +14,4 @@ function About(params) {
         </div>
     )
 }
-export default About
+export default Login

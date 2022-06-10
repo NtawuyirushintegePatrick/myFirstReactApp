@@ -1,10 +1,11 @@
-
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../src/Components/Home";
 import About from "../src/Components/About";
 import Contacts from "../src/Components/Contacts";
 import Projects from "../src/Components/Projects";
 import Skills from "../src/Components/Skills";
+import Login from "../src/Components/Login";
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/">
-          <Route path="Home" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="Contacts" element={<Contacts />} />
           <Route path="Projects" element={<Projects />} />
           <Route path="Skills" element={<Skills />} />
+          <Route path="Login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>
