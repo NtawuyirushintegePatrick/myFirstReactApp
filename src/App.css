@@ -25,3 +25,50 @@
     display: flex;
 
 }
+
+
+/* homepage */
+
+.home{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+}
+.home .img{
+    width: 300px;
+    height: 300px;
+    border-radius: 2px;
+}
+.img-container{
+    padding: 30px;
+}
+.ds{
+    padding: 30px;
+}
+.ds .h1{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ds .p1{
+    color: #333;
+    font-family: 'Muli', sans-serif; 
+    margin-bottom: 15px;
+    font-size: 100;
+    text-align:justify;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.btn{
+    background-color: rgb(74, 80, 85);
+    border: none;
+    color: white;
+    padding: 0px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.btn :hover{
+    background-color: rgb(142, 148, 167);
+}
