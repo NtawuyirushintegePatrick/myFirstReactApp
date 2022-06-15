@@ -1,6 +1,9 @@
 function Projects(params) {
     return(
         <div className="header-container">
+            
+            <img src="logoR.jpg" alt="" className="logo"/>
+            
             <div className="nav-bar">
                 <ul>
                     <li><a href="/">Home</a></li>
