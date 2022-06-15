@@ -111,6 +111,10 @@ function Home() {
 
               </div>
             </div>
+            <div className="pfoot">
+             <p className="pfooter">Patrick.co.ltd copyright</p>
+            </div>
+
 
               
          </body>

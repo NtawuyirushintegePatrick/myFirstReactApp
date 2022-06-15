@@ -118,8 +118,11 @@
     text-align: justify;
     
 }
-.pfooter{
+.pfoot .pfooter{
     padding-left: 40%;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
 }
 a{
     text-decoration: none;
