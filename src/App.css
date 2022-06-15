@@ -79,9 +79,16 @@
 }
 .footer{
     border: 1px solid black;
+
+    margin: 5px;
     display: flex;
-    padding: 10px;
-    margin: 10px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0  0 0  0;
+    background-color: #313333;
 }
 .card2{
     background-color: #313333;
@@ -127,11 +134,13 @@ a{
   width: 30%; 
 } */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 3px;
 }
 
 /* Add a hover effect if you want */
@@ -232,13 +241,24 @@ input{
 }
 .about h1{
     text-align: center;
+    font-style: oblique;
     font-family:'Times New Roman', Times, serif;
 }
 .about .p1{
     margin: 50px;
+    width: 600px;
+    text-align: center;
     font-family: 'Muli', sans-serif; 
     margin-bottom: 15px;
+    margin-left: 400px;
     font-size: 100;
     text-align:justify;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+/* #body */
+
+.body{
+    border: 1px solid black;
+    margin: 0;
 }
