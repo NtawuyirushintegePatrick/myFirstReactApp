@@ -84,7 +84,7 @@
     display: flex;
     text-align: center;
     padding-left: 5%;
-    padding-right: 50%;
+    padding-right: 5%;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0  0 0  0;
@@ -127,6 +127,7 @@
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    margin: 3px;
 }
 /* .gmap_canvas{
     height: 50%;
@@ -203,11 +204,11 @@ a{
 } 
 .email{
   padding: 5px;
-  width: 100%;
+  width: 320px;
 }
 .fullname{
   padding: 5px;
-  width: 100%;
+  width: 320px;
 }
 .comment{
   padding: 5px;

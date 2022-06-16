@@ -19,11 +19,11 @@ function Home() {
           
           
           <div className="header-container">
-              <img src="logoR.png"  className="logo"/>
+              <img src="logoo.jpg"  className="logo"/>
             <div className="nav-bar">
                    <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="About">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="Skills">Skills</a></li>
                     <li><a href="Projects">Projects</a></li>
                     <li><a href="todoApp">TodoApp</a></li>
@@ -57,7 +57,7 @@ function Home() {
          
 
         
-            <div className="about">
+            <div className="about" id="about">
             <h1 className="h1">About me</h1>
             <p className="p1">
             Innovative tech mind with 1 years of experience working as a computer programmer. 
@@ -104,15 +104,19 @@ function Home() {
                <h3>Contacts</h3>
                <p>Kigali City</p>
                <p>Phone : +250728172130</p>
-
+               <p>KG 147 St, Kigali, Rwanda</p>
+               
+               </div>
+               <div className="card2">
                <p>Email me: </p> 
                <input type="text"  id="names" className="fullname" placeholder="Your full names"/>
                <input type="Email" id="mail" className="email" placeholder="Enter email..."/>
                <textarea id="comments" className="comment">Type your comment here.</textarea>
                <button id="button" className="sendbtn">Send</button>
+               </div>
 
               </div>
-            </div>
+        
             <div className="pfoot">
              <p className="pfooter">Patrick.co.ltd copyright</p>
             </div>
