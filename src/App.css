@@ -221,23 +221,23 @@ input{
 /* .logo{
     border: 1px solid wheat;
     margin-left: 1px;
-    width: 100px;
+    width: 200px;
     height: 70px;
     margin: 2px;
 } */
 .header-container .logo{
     border: 2px solid wheat;
-    height: 75px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     margin: 5px;
-    
+      
 }
 
 
 /* #about */
 
 .about{
-    /* border: 1px solid black; */
+    
     margin: 50px;
     height: 200px;
 
@@ -264,4 +264,11 @@ input{
 .body{
     border: 1px solid black;
     margin: 0;
+}
+.todo{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 2px;
+    margin-left: 500px;
 }

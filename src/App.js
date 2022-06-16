@@ -6,6 +6,7 @@ import Contacts from "../src/Components/Contacts";
 import Projects from "../src/Components/Projects";
 import Skills from "../src/Components/Skills";
 import Login from "../src/Components/Login";
+import TodoApp from "../src/Components/todoApp";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="Projects" element={<Projects />} />
           <Route path="Skills" element={<Skills />} />
           <Route path="Login" element={<Login />} />
+          <Route path="todoApp" element={<TodoApp />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -19,13 +19,14 @@ function Home() {
           
           
           <div className="header-container">
-              <img src="logoR.jpg" alt="" className="logo"/>
+              <img src="logoR.png"  className="logo"/>
             <div className="nav-bar">
                    <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="About">About</a></li>
                     <li><a href="Skills">Skills</a></li>
                     <li><a href="Projects">Projects</a></li>
+                    <li><a href="todoApp">TodoApp</a></li>
                     <li><a href="Login">Login</a></li>
                 </ul>
             </div>
@@ -36,7 +37,7 @@ function Home() {
 
          <div className="home">
              <div className="img-container">
-                 <img src="fb.jpg" alt="" className="img"/>
+                 <img src="fb.jpg" alt=" " className="img"/>
              </div>
              <div className="ds">
                  <h1 className="h1">I'm software Developer</h1><br/><br/>
@@ -65,8 +66,9 @@ function Home() {
                 Talented leader with unique ideas and a history of successful contributions in the field.
 
             </p>
-
             </div>
+
+
          
 
 
