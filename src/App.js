@@ -8,9 +8,17 @@ import Skills from "../src/Components/Skills";
 import Login from "../src/Components/Login";
 import TodoApp from "../src/Components/todoApp";
 
+
 function App() {
   return (
+    <>
+    <Login/>
+    
+    
+      
+    
 
+    
     <BrowserRouter>
       <Routes>
         <Route path="/">
@@ -25,7 +33,7 @@ function App() {
       </Routes>
     </BrowserRouter>
 
-  
+  </>
     // <>
     // <input type="text"/>
     // <button>add toDo</button>

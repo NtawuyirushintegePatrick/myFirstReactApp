@@ -5,14 +5,15 @@ function TodoApp () {
     <>
 
 <div className="header-container">
-              <img src="logoR.png"  className="logo"/>
+              {/* <img src="logoo.jpg"  className="logo"/> */}
             <div className="nav-bar">
                    <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="About">About</a></li>
-                    <li><a href="Skills">Skills</a></li>
-                    <li><a href="Projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="todoApp">TodoApp</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                     <li><a href="Login">Login</a></li>
                 </ul>
             </div>

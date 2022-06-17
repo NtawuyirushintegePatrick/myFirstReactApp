@@ -19,22 +19,21 @@ function Home() {
           
           
           <div className="header-container">
-              <img src="logoo.jpg"  className="logo"/>
+              {/* <img src="logoo.jpg"  className="logo"/> */}
             <div className="nav-bar">
                    <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="Skills">Skills</a></li>
-                    <li><a href="Projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="todoApp">TodoApp</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                     <li><a href="Login">Login</a></li>
                 </ul>
             </div>
          </div>
 
          <body className="body">
-         
-
          <div className="home">
              <div className="img-container">
                  <img src="fb.jpg" alt=" " className="img"/>
@@ -69,6 +68,110 @@ function Home() {
             </div>
 
 
+
+            <div className="skill"  id="skills">
+
+            <h1 className="h1">Skills</h1>
+        
+            <div className="skills">
+            <div className="skills-img">
+               <img src="skills.jpg" alt=" " className="sk-img"/>
+            </div>
+            <div className="project-details">
+                <ul>
+                  <li>
+                    <h3>React js</h3>
+                    <p className="percentage">50%</p>
+                    <div className="pro-container">
+                      <div className="progress progress-moved">
+                        <div className="progress-bar">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <h3>JavaScripts</h3>
+                    <p className="percentage">20%</p>
+                    <div className="pro-container">
+                      <div className="progress progress-moved">
+                        <div className="progress-bar">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <h3>Python</h3>
+                    <p className="percentage">10%</p>
+                    <div className="pro-container">
+                      <div className="progress progress-moved">
+                        <div className="progress-bar">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <h3>WordPress</h3>
+                    <p className="percentage">20%</p>
+                    <div className="pro-container">
+                      <div className="progress progress-moved">
+                        <div className="progress-bar">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>  
+            </div>
+
+            
+
+        <div className="pro" id="projects">
+
+        <div className="project">
+        <h1 className="h1">Projects</h1>
+        </div>
+        <div className="container">
+          <div className="card">
+              <img src="p1.jpg" alt=""/> 
+              <p>
+                This Project was designed to assist the user to be 
+                updated about blogs
+              </p>
+              <div className="bu">
+              <button className="button"><p1>Read more</p1></button>
+              </div>
+          </div>
+          <div className="card">
+              <img src="p2.jpg" alt=""/>
+              <p>
+                This Project is strictly implemented in order to 
+                assist user to schedule a time
+            </p>
+            <div className="bu" >
+            <button className="button"><p1>Read more</p1></button>
+            </div>
+          </div>
+          <div className="card">
+              <img src="p3.jpg" alt=""/>
+              <p>
+                This Project has been designed for user testing
+                fjdbgndfgdfgkdn
+            </p>
+            <div className="bu">
+            <button className="button" ><p1>Read more</p1></button>
+            </div>
+          </div>
+        </div>
+        </div>
+            
+           
+
+
+
+            
+
+
          
 
 
@@ -80,7 +183,7 @@ function Home() {
            
 
          
-            <div className="footer">
+            <div className="footer" id="contacts">
                 <div className="card2">
                      <h3>Services</h3>
                      <div className="ser">
